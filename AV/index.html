@@ -1,7 +1,6 @@
 <!DOCTYPE HTML>
 <html lang="zh-CN">
-    <!-- shw2018 洪卫  modify 2019.08.15-->
-
+    
 
 
 <head><meta name="generator" content="Hexo 3.9.0">
@@ -599,7 +598,7 @@
 
 </header>
 
-        <!-- shw2018 洪卫  add 2019.08.10-->
+        
 <style type="text/css">
     /* don't remove. */
     .about-cover {
@@ -689,7 +688,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
                 </div>
 
                 
-                <!-- shw2018 洪卫  modify 2019.08.15-->
+                
 <link rel="stylesheet" href="/libs/dplayer/DPlayer.min.css">
 <div class="video-player">
     
@@ -850,7 +849,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
         <footer class="page-footer bg-color">
     <div class="container row center-align">
         <div class="col s12 m8 l8 copy-right">
-            Copyright&copy; 2019 洪卫. 
+            Copyright&copy; 2020 赖宸东.
 
             <br>
             <span id="sitetime"></span><span class="my-face">ღゝ◡╹)ノ♡</span>
@@ -940,7 +939,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
         seconds - 0-59之间的整数，做为date对象的秒数
         microseconds - 0-999之间的整数，做为date对象的毫秒数 */
 
-        var t1 = Date.UTC(2019, 08, 10, 00, 00, 00); //北京时间2019-8-1 00:00:00
+        var t1 = Date.UTC(2019, 08, 10, 00, 00, 00); //北京时间2020-6-10 00:00:00
         var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
         var diff = t2 - t1;
         var diffYears = Math.floor(diff / years);
@@ -949,7 +948,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
         var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) / minutes);
         var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours - diffMinutes *
             minutes) / seconds);
-        document.getElementById("sitetime").innerHTML = "本站已勉强运行 " + diffYears + " 年 " + diffDays + " 天 " + diffHours +
+        document.getElementById("sitetime").innerHTML = "本站已运行 " + diffYears + " 年 " + diffDays + " 天 " + diffHours +
             " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒" ;
     } /*因为建站时间还没有一年，就将之注释掉了。需要的可以取消*/
     siteTime();
@@ -1010,21 +1009,21 @@ $(function () {
             var OriginTitile = document.title,
                 st;
             document.addEventListener("visibilitychange", function () {
-                document.hidden ? (document.title = "看不见我🙈~看不见我🙈~", clearTimeout(st)) : (document.title =
-                    "(๑•̀ㅂ•́) ✧被发现了～", st = setTimeout(function () {
+                document.hidden ? (document.title = "my beautiful girl~", clearTimeout(st)) : (document.title =
+                    "love you～", st = setTimeout(function () {
                         document.title = OriginTitile
                     }, 3e3))
             })
         </script>
 
-        <!-- 鼠标点击烟花爆炸效果  洪卫 shw2018 add 2019.09.09 -->
+        <!-- 鼠标点击烟花爆炸效果 -->
         
             <canvas class="fireworks" style="position: fixed; left: 0; top: 0; z-index: 1; pointer-events: none;"></canvas>
             <script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script>
             <script type="text/javascript" src="/js/fireworks.js"></script>
         
 
-        <!-- 背景雪花飘落特效洪卫 shw2018 add 2019.09.10 -->
+        <!-- 背景雪花飘落特效洪卫  -->
         
             <script type="text/javascript">
             //只在桌面版网页启用特效
@@ -1035,12 +1034,12 @@ $(function () {
             </script>
         
 
-        <!-- 鼠标点击文字特效 洪卫 shw2018 add 2019.09.10-->
+        <!-- 鼠标点击文字特效 洪卫 -->
         
             <script src="/js/wenzi.js" type="text/javascript"></script>
         
 
-        <!-- 背景雪花飘落特效 洪卫 shw2018 add 2019.09.10 -->
+        <!-- 背景雪花飘落特效 洪卫  -->
         
             <script type="text/javascript">
                 var windowWidth = $(window).width();
@@ -1050,10 +1049,10 @@ $(function () {
             </script>
         
 
-        <!-- 在线聊天工具  洪卫 shw2018 add 2019.09.11 -->
+        <!-- 在线聊天工具   -->
         
             <script src="//code.tidio.co/xxxxxxxxxxxxxxxxxxxxxxxxxxx.js"></script>
-            <!--  在线聊天位置自定义  洪卫 shw2018 add 2019.09.13  -->
+            <!--  在线聊天位置自定义    -->
             <script> 
                 $(document).ready(function () {
 
@@ -1085,7 +1084,7 @@ $(function () {
             </script>
         
 
-        <!-- 背景 canvas-nest  洪卫 shw 2018  add 2019.09.15-->
+        <!-- 背景 -->
         
             <script type="text/javascript">
             var windowWidth = $(window).width();
@@ -1095,10 +1094,10 @@ $(function () {
             </script>
         
 
-        <!-- 背景静止彩带  洪卫 shw 2018  add 2019.09.15-->
+        <!-- 背景静止彩带 -->
         
 
-        <!-- 背景动态彩带 洪卫 shw 2018  add 2019.09.15-->
+        <!-- 背景动态彩带 -->
         
             <script type="text/javascript">
             var windowWidth = $(window).width();
@@ -1108,5 +1107,5 @@ $(function () {
             </script>
         
 
-    <script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/wanko.model.json"},"display":{"position":"left","width":150,"height":200},"mobile":{"show":false},"react":{"opacity":0.7}});</script><script>!function(e){var r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function t(){for(var c=0;c<r.length;c++)t=r[c],void 0,0<=(n=t.getBoundingClientRect()).top&&0<=n.left&&n.top<=(e.innerHeight||document.documentElement.clientHeight)&&function(){var t,n,e,i,o=r[c];t=o,n=function(){r=r.filter(function(t){return o!==t})},e=new Image,i=t.getAttribute("data-original"),e.onload=function(){t.src=i,n&&n()},e.src=i}();var t,n}t(),e.addEventListener("scroll",function(){!function(t,n){clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(n)},500)}(t,e)})}(this);</script></body>
+    <script>!function(e){var r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function t(){for(var c=0;c<r.length;c++)t=r[c],void 0,0<=(n=t.getBoundingClientRect()).top&&0<=n.left&&n.top<=(e.innerHeight||document.documentElement.clientHeight)&&function(){var t,n,e,i,o=r[c];t=o,n=function(){r=r.filter(function(t){return o!==t})},e=new Image,i=t.getAttribute("data-original"),e.onload=function(){t.src=i,n&&n()},e.src=i}();var t,n}t(),e.addEventListener("scroll",function(){!function(t,n){clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(n)},500)}(t,e)})}(this);</script><script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/wanko.model.json"},"display":{"position":"left","width":150,"height":200},"mobile":{"show":false},"react":{"opacity":0.7}});</script></body>
 </html>
