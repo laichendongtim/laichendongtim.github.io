@@ -54,26 +54,9 @@ h3 {
     line-height: 1.7rem;
 }
 
-h4 {
-    margin: 32px 0 12px -4px;
-    font-size: 1.45rem;
-    font-weight: bold;
-    line-height: 1.45rem;
-}
+h
 
-h5 {
-    margin: 28px 0 8px -4px;
-    font-size: 1.2rem;
-    font-weight: bold;
-    line-height: 1.2rem;
-}
-
-h6 {
-    margin: 22px 0 4px -4px;
-    font-size: 1.1rem;
-    line-height: 1.1rem;
-} */
-/* 洪卫 shw2018 modify 2019.08.31 */
+/* modify */
 h1 {
     margin: 38px 0 22px -5px;
     font-size: 2.0rem;
@@ -143,7 +126,7 @@ pre {
     tab-size: 4;
 }
 */
-/*修改一下才能正确显示行号,而不是一条竖线 洪卫 shw2018 2019.08.14  */
+/*修改一下才能正确显示行号,而不是一条竖线  */
 pre {
     padding: 1.5rem 1.5rem 1.5rem 3.3rem !important;
     margin: 1rem 0 !important;
@@ -544,7 +527,7 @@ header .go-back i {
         background: -webkit-linear-gradient(135deg, rgba(2233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
     }
 } */
-/* 换成:红橙黄绿青蓝紫 背景渐变 洪卫 shw2018  add  2019.08.30  */
+/* 换成:红橙黄绿青蓝紫 背景渐变 */
 @keyframes rainbow {
     /* 0%,
     100% {
@@ -627,7 +610,7 @@ header .go-back i {
 /* .index-card .card .card-content {
     padding: 20px 40px;
 } */
-/* 洪卫 shw2018 modify 2019.08.31 */
+/*  */
 .index-card .card .card-content {
     padding: 5px 5px;
 }
@@ -791,7 +774,7 @@ article .card {
     border-radius: 5px;
     /*原值 8px*/
     overflow: hidden;
-    /* 解决文章卡片上方border-radius失效的bug, 洪卫 shw2018 add 2019.08.31 */
+    /* 解决文章卡片上方border-radius失效的bug, */
 }
 
 article .card-image {
@@ -942,7 +925,7 @@ article .article-tags .chip {
     padding: 20px 30px 1px 40px;
     margin-bottom: -5px;
 } */
-/* 洪卫 shw2018 modify 2019.08.31 */
+/* */
 #artDetail .article-info {
     padding: 20px 20px 1px 25px;
     margin-bottom: -5px;
@@ -1033,7 +1016,7 @@ article .article-tags .chip {
         padding: 0 50px 20px 50px;
     }
 } */
-/* 洪卫 shw2018 modify 2019.08.31 */
+/* */
 @media only screen and (min-width: 993px) {
     #artDetail .article-card-content {
         padding: 0 25px 20px 25px;
@@ -1757,7 +1740,7 @@ footer .social-statis {
     position: relative;
 }
 
-/* 洪卫 shw2018 modify 2019.09.11 */
+/*  */
 footer a {
     /* color: #fff; */
     color: #dbdbdb;
@@ -1878,7 +1861,7 @@ footer .copy-right {
 /* .img-margin {
     margin: 25px auto 10px auto;
 } */
-/* 洪卫 shw2018 modify 2019.08.31 */
+/* */
 .img-margin {
     margin: 2px auto 5px auto;
 }
@@ -1948,7 +1931,7 @@ footer .copy-right {
     background: white;
 }
 
-/* 二级菜单样式定义 洪卫 shw2018 add 2019.09.17 */
+/* 二级菜单样式定义 */
 .nav-menu {}
 
 .nav-menu li .sub-nav {

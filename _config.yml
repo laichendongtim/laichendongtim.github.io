@@ -1,4 +1,3 @@
-# shw2018 洪卫  modify 2019.08.01
 
 # Site
 title: 赖宸东的博客
@@ -111,13 +110,23 @@ theme: matery
 deploy:
 - type: git
   repo:
-    github:  https://github.com/laichendongtim/laichendongtim.github.io.git
+    github:  https://github.com/laichendongtim/laichendongtim.github.io
     # coding: https://git.coding.net/hwsun/hwsun.git
     # gitee: https://gitee.com/hwsun/hwsun.git
   branch: master
 
 
 
+valine:
+        enable: true
+        appId: gNOUB99BLGO2SftrYG0bXTur-gzGzoHsz
+        appKey: lmg2nqo2efqhDm3cx2uMkI2Y
+        notify: true
+        verify: true
+        visitor: true
+        avatar: 'mm' # Gravatar style : mm/identicon/monsterid/wavatar/retro/hide
+        pageSize: 10
+            placeholder: 'just go go' # Comment Box placeholder
 
 live2d:
   enable: true
@@ -149,19 +158,5 @@ githubEmojis:
     # font-weight: bold
   customEmojis:
 
-# marked:
-#   gfm: true
-#   pedantic: false
-#   breaks: true
-#   smartLists: true
-#   smartypants: true
-#   modifyAnchors: ''
-#   autolink: true
-#   sanitizeUrl: false
-#   headerIds: true
 
-# lazyload configuration  2019.08.14
-lazyload:
-  enable: true 
-  onlypost: true
-  loadingImg: https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg    # eg ./images/loading.gif
+
