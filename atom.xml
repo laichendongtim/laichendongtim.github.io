@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://laichendongtim.github.io/"/>
-  <updated>2020-07-02T13:56:23.796Z</updated>
+  <updated>2020-07-02T15:33:54.603Z</updated>
   <id>https://laichendongtim.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://laichendongtim.github.io/2020/06/11/newteach/"/>
     <id>https://laichendongtim.github.io/2020/06/11/newteach/</id>
     <published>2020-06-11T01:48:02.000Z</published>
-    <updated>2020-07-02T13:56:23.796Z</updated>
+    <updated>2020-07-02T15:33:54.603Z</updated>
     
     <summary type="html">
     
@@ -40,28 +40,6 @@
     
     
       <category term="technology" scheme="https://laichendongtim.github.io/tags/technology/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://laichendongtim.github.io/2020/06/11/hello-world/"/>
-    <id>https://laichendongtim.github.io/2020/06/11/hello-world/</id>
-    <published>2020-06-11T00:25:21.863Z</published>
-    <updated>2020-06-11T00:25:21.863Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
-        
-      
-    
-    </summary>
-    
     
   </entry>
   
