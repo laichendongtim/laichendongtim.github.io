@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://laichendongtim.github.io/"/>
-  <updated>2020-07-05T13:18:03.112Z</updated>
+  <updated>2020-08-02T11:50:53.861Z</updated>
   <id>https://laichendongtim.github.io/</id>
   
   <author>
@@ -17,11 +17,37 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>利用pygame开发飞机大战游戏</title>
+    <link href="https://laichendongtim.github.io/2020/07/11/fly/"/>
+    <id>https://laichendongtim.github.io/2020/07/11/fly/</id>
+    <published>2020-07-11T01:48:02.000Z</published>
+    <updated>2020-08-02T11:50:53.861Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;一、前言&quot;&gt;&lt;a href=&quot;#一、前言&quot; class=&quot;headerlink&quot; title=&quot;一、前言&quot;&gt;&lt;/a&gt;一、前言&lt;/h2&gt;&lt;p&gt;
+        
+      
+    
+    </summary>
+    
+      <category term="python" scheme="https://laichendongtim.github.io/categories/python/"/>
+    
+    
+      <category term="technology" scheme="https://laichendongtim.github.io/tags/technology/"/>
+    
+  </entry>
+  
+  <entry>
     <title>零基础小白利用 Github 搭建教程</title>
     <link href="https://laichendongtim.github.io/2020/06/11/newteach/"/>
     <id>https://laichendongtim.github.io/2020/06/11/newteach/</id>
     <published>2020-06-11T01:48:02.000Z</published>
-    <updated>2020-07-05T13:18:03.112Z</updated>
+    <updated>2020-07-05T13:21:24.693Z</updated>
     
     <summary type="html">
     
